@@ -444,6 +444,7 @@ header form p:last-of-type {
 --------------------------  */
 
 .main .sect {
+    color: #fff;
     width: calc(100% - 100px);
     min-height: 300px;
     margin: 50px;
@@ -472,9 +473,17 @@ header form p:last-of-type {
     padding: 20px;
     background-color: rgba(0,0,0,.3);
     color: #000;
+    border: solid 1px #fff;
 }
 .go-top-button:hover {
     color: #fff;
+}
+
+.map{
+    height: 400px;
+    width: 100%;
+    column-span: all;
+    margin-top: 20px;
 }
 
 /* FOOTER
